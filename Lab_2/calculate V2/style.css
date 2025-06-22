@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: url("background.jpg") no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.calculator {
+  position: relative;
+  background-color: #222;
+  padding: 15px;
+  border-radius: 20px;
+  width: 295px;
+  margin: 0 auto;
+}
+
+.topic-selector {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  z-index: 999;
+  padding: 5px;
+}
+
+.topic-selector select {
+  padding: 5px 10px;
+  font-size: 1rem;
+  border-radius: 8px;
+}
+
+.github-btn {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 4px 10px;
+  background-color: #444;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 0.8rem;
+}
+
+.github-btn:hover {
+  background-color: #5b5b5b;
+}
+
+.goal {
+  margin-top: 35px;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  color: #ffffff;
+  text-align: center;
+}
+.author {
+  margin-top: 20px;
+  font-size: 0.8rem;
+  color: #fbfbfb;
+}
+
+
+.my-btn {
+  margin: 5px 5px 0 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 80%;
+  background: #6c6c6c;
+  color: white;
+  font-size: 1.5rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.my-btn.del {
+  background: #044600
+}
+
+.my-btn:hover {
+  filter: brightness(120%);
+}
+
+.my-btn:active {
+  transform: scale(0.95);
+}
+
+.my-btn.primary {
+  background: #08a300;
+}
+
+.my-btn.secondary {
+  background: #08a300;
+}
+
+.my-btn.execute {
+  width: 110px;
+  border-radius: 30px;
+}
+
+.result {
+  width: 280px;
+  height: 50px;
+  margin-bottom: 15px;
+  padding-right: 10px;
+  background: #ffffff;
+  text-align: right;
+  color: #000000;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 10px;
+}
